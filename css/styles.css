@@ -38,3 +38,17 @@ h1 {
         clear: both;
     }
 }
+.section-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid black;
+    font-size: 1.25em;
+}
+.section {
+    position: relative;
+    padding-top: 40px; /* Ensure text is below the title */
+}
